@@ -6,4 +6,4 @@ class ExpenseSerializer(serializers.ModelSerializer):
         model = Expense
         fields = ('ExpenseId',
                     'Category',
-                    'Amount' )
+                    'Amount')
